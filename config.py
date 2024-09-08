@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "73a0824e4da17de787471ea41cff341bfe
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/modiurltutorial/9") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://gunztesannate.blogspot.com/2024/09/viral-news.html") # For More Information Check Video On Yt - @Tech_VJ
